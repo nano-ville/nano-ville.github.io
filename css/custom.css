@@ -1,0 +1,72 @@
+.banner-img{
+    max-width: 100%;
+    height: 200px;
+    margin: 0px;
+}
+
+.banner-container{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.n-title{
+    font-size: 120px;
+    width: 100%;
+    text-align: center;
+}
+
+.bullet-points{
+    font-size: 18px;
+}
+
+.external-link-container{
+    min-height: 100px;
+    max-height: fit-content;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-image: initial;
+}
+
+.google-map {
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    height: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-image: initial;
+}
+
+.external-link-row {
+    padding: 30px;
+}
+
+.contact-us {
+    margin-top: 2rem !important;
+}
+
+.contact-info {
+    height: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-image: initial;
+}

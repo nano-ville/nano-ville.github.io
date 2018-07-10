@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Nanoville</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/custom.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- <link href="vendors/bootstrap-4.1.1/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+
+  <!-- Custom styles for this template -->
+  <script type="text/javascript" charset="UTF-8" src="js/common.js"></script>
+  <script type="text/javascript" charset="UTF-8" src="js/util.js"></script>
+  <script type="text/javascript" charset="UTF-8" src="js/map.js"></script>
+  <script type="text/javascript" charset="UTF-8" src="js/marker.js"></script>
+  <style type="text/css">
+    .gm-style {
+      font: 400 11px Roboto, Arial, sans-serif;
+      text-decoration: none;
+    }
+
+    .gm-style img {
+      max-width: none;
+    }
+  </style>
+  <script type="text/javascript" charset="UTF-8" src="js/onion.js"></script>
+  <script type="text/javascript" charset="UTF-8" src="js/controls.js"></script>
+  <script type="text/javascript" charset="UTF-8" src="js/stats.js"></script>
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar justify-content-center navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="index.html#">Nanoville</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="amenities.html">Amenities</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="plan.html">Plan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main role="main">
+    <div class="container-fluid banner-container">
+      <img src="images/village_02_edited.jpg" class="img-fluid banner-img " alt="Responsive image">
+      <div class="centered">
+        <p class="n-title">Nanoville</p>
+      </div>
+    </div>
+
+
+    <!-- Marketing messaging and featurettes
+      ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">WHO WE ARE
+            <span class="text-muted">will inspire you</span>
+          </h2>
+          <p class="lead">We are
+            <b>Community Supported Agriculture
+              <a href="https://en.wikipedia.org/wiki/Community-supported_agriculture">(CSA)</a>
+            </b> cum
+            <b>Resort</b>
+            <br>
+            <br>A system that connects the producer and consumers within the food system more closely by allowing the consumer
+            to subscribe to the harvest of a certain farm or group of farms. It is an alternative socioeconomic model of
+            agriculture and food distribution that allows the producer and consumer to share the risks of farming.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-fluid mx-auto" src="images/csa.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">WHAT WE DO
+            <span class="text-muted">will allure you</span>
+          </h2>
+          <p class="lead">
+            To make a difference in the society by -
+          </p>
+          <ul type="square" class="bullet-points">
+            <li>Making farming profitable</li>
+            <li>Teaching next generations about the rich culture and traditions of rural India</li>
+            <li>Bringing in decent returns to all the individual members involved</li>
+          </ul>
+          <p></p>
+
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img class="featurette-image img-fluid mx-auto" src="images/culture.jpg"
+            alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">5 ELEMENTS OF LIFE
+            <span class="text-muted">will rejuvinate you</span>
+          </h2>
+          <p class="lead">
+            VAYU - Breathe pure air like never before
+            <br> AGNI - Let your eyes light up with mesmerizing beauty of fire
+            <br> JALA - Indulge yourself in crystal sparkling water
+            <br> AKASH - Lay under the stars
+            <br> BHUMI - Feel the essence of earth
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-fluid mx-auto" src="images/5e_cropped.jpg"
+            alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- External links section -->
+    <div class="container external-link-container">
+      <div class="row external-link-row row justify-content-center">
+        <div class="col-sm-2">
+          <button type="button" class="btn btn-dark">
+            <a href="amenities.html">Amenities</a>
+          </button>
+        </div>
+        <div class="col-sm-2">
+          <button type="button" class="btn btn-dark">
+            <a href="plan.html">Plan</a>
+          </button>
+        </div>
+        <div class="col-sm-2">
+          <button type="button" class="btn btn-dark">
+            <a href="gallery.html">Images</a>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Google map section -->
+    <div class="container">
+      <h2 class="featurette-heading contact-us">Contact</h2>
+      <div class="row">
+        <div class="col-sm-6 col-lg-8">
+          <div id="map" class="google-map" style="position: relative; overflow: hidden;">
+            <div style="height: 100%; width: 100%; position: absolute; top: 0px; left: 0px; background-color: rgb(229, 227, 223);">
+              <div class="gm-style" style="position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px;">
+                <div tabindex="0" style="position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; cursor: url(&quot;https://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;), default; touch-action: pan-x pan-y;">
+                  <div style="z-index: 1; position: absolute; left: 50%; top: 50%; transform: translate(0px, 0px);">
+                    <div style="position: absolute; left: 0px; top: 0px; z-index: 100; width: 100%;">
+                      <div style="position: absolute; left: 0px; top: 0px; z-index: 0;">
+                        <div style="position: absolute; z-index: 1; transform: matrix(1, 0, 0, 1, -24, -5);">
+                          <div style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px;">
+                            <div style="width: 256px; height: 256px;"></div>
+                          </div>
+                          <div style="position: absolute; left: -256px; top: 0px; width: 256px; height: 256px;">
+                            <div style="width: 256px; height: 256px;"></div>
+                          </div>
+                          <div style="position: absolute; left: -256px; top: -256px; width: 256px; height: 256px;">
+                            <div style="width: 256px; height: 256px;"></div>
+                          </div>
+                          <div style="position: absolute; left: 0px; top: -256px; width: 256px; height: 256px;">
+                            <div style="width: 256px; height: 256px;"></div>
+                          </div>
+                          <div style="position: absolute; left: 256px; top: -256px; width: 256px; height: 256px;">
+                            <div style="width: 256px; height: 256px;"></div>
+                          </div>
+                          <div style="position: absolute; left: 256px; top: 0px; width: 256px; height: 256px;">
+                            <div style="width: 256px; height: 256px;"></div>
+                          </div>
+                          <div style="position: absolute; left: -512px; top: 0px; width: 256px; height: 256px;">
+                            <div style="width: 256px; height: 256px;"></div>
+                          </div>
+                          <div style="position: absolute; left: -512px; top: -256px; width: 256px; height: 256px;">
+                            <div style="width: 256px; height: 256px;"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div style="position: absolute; left: 0px; top: 0px; z-index: 101; width: 100%;"></div>
+                    <div style="position: absolute; left: 0px; top: 0px; z-index: 102; width: 100%;"></div>
+                    <div style="position: absolute; left: 0px; top: 0px; z-index: 103; width: 100%;">
+                      <div style="position: absolute; left: 0px; top: 0px; z-index: -1;">
+                        <div style="position: absolute; z-index: 1; transform: matrix(1, 0, 0, 1, -24, -5);">
+                          <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 0px; top: 0px;"></div>
+                          <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -256px; top: 0px;"></div>
+                          <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -256px; top: -256px;"></div>
+                          <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 0px; top: -256px;"></div>
+                          <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 256px; top: -256px;"></div>
+                          <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 256px; top: 0px;"></div>
+                          <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -512px; top: 0px;"></div>
+                          <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -512px; top: -256px;"></div>
+                        </div>
+                      </div>
+                      <div style="width: 50px; height: 50px; overflow: hidden; position: absolute; left: 0px; top: 0px; z-index: 0;">
+                        <img alt="" src="images/map-marker.png" draggable="false"
+                          style="position: absolute; left: 0px; top: 0px; width: 50px; height: 50px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                      </div>
+                    </div>
+                    <div style="position: absolute; left: 0px; top: 0px; z-index: 0;">
+                      <div style="position: absolute; z-index: 1; transform: matrix(1, 0, 0, 1, -24, -5);">
+                        <div style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px;">
+                          <img draggable="false" alt="" src="js/vt" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                        </div>
+                        <div style="position: absolute; left: -256px; top: 0px; width: 256px; height: 256px;">
+                          <img draggable="false" alt="" src="js/vt(1)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                        </div>
+                        <div style="position: absolute; left: -256px; top: -256px; width: 256px; height: 256px;">
+                          <img draggable="false" alt="" src="js/vt(2)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                        </div>
+                        <div style="position: absolute; left: 256px; top: -256px; width: 256px; height: 256px;">
+                          <img draggable="false" alt="" src="js/vt(3)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                        </div>
+                        <div style="position: absolute; left: 256px; top: 0px; width: 256px; height: 256px;">
+                          <img draggable="false" alt="" src="js/vt(4)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                        </div>
+                        <div style="position: absolute; left: 0px; top: -256px; width: 256px; height: 256px;">
+                          <img draggable="false" alt="" src="js/vt(5)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                        </div>
+                        <div style="position: absolute; left: -512px; top: -256px; width: 256px; height: 256px;">
+                          <img draggable="false" alt="" src="js/vt(6)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                        </div>
+                        <div style="position: absolute; left: -512px; top: 0px; width: 256px; height: 256px;">
+                          <img draggable="false" alt="" src="js/vt(7)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="gm-style-pbc" style="z-index: 2; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px; opacity: 0;">
+                    <p class="gm-style-pbt"></p>
+                  </div>
+                  <div style="z-index: 3; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px; touch-action: pan-x pan-y;">
+                    <div style="z-index: 4; position: absolute; left: 50%; top: 50%; transform: translate(0px, 0px);">
+                      <div style="position: absolute; left: 0px; top: 0px; z-index: 104; width: 100%;"></div>
+                      <div style="position: absolute; left: 0px; top: 0px; z-index: 105; width: 100%;"></div>
+                      <div style="position: absolute; left: 0px; top: 0px; z-index: 106; width: 100%;">
+                        <div class="gmnoprint" title="" style="width: 50px; height: 50px; overflow: hidden; position: absolute; opacity: 0.01; cursor: pointer; touch-action: none; left: 0px; top: 0px; z-index: 0;">
+                          <img alt="" src="images/map-marker.png" draggable="false"
+                            style="position: absolute; left: 0px; top: 0px; width: 50px; height: 50px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                        </div>
+                      </div>
+                      <div style="position: absolute; left: 0px; top: 0px; z-index: 107; width: 100%;"></div>
+                    </div>
+                  </div>
+                </div>
+                <iframe frameborder="0" style="z-index: -1; position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; border: none;"
+                  src="js/saved_resource.html"></iframe>
+                <div style="margin-left: 5px; margin-right: 5px; z-index: 1000000; position: absolute; left: 0px; bottom: 0px;">
+                  <a target="_blank" rel="noopener" href="https://maps.google.com/maps?ll=14.090821,77.536324&amp;z=11&amp;t=m&amp;hl=en-US&amp;gl=US&amp;mapclient=apiv3"
+                    title="Click to see this area on Google Maps" style="position: static; overflow: visible; float: none; display: inline;">
+                    <div style="width: 66px; height: 26px; cursor: pointer;">
+                      <img alt="" src="js/google4_hdpi.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 66px; height: 26px; user-select: none; border: 0px; padding: 0px; margin: 0px;">
+                    </div>
+                  </a>
+                </div>
+                <div style="background-color: white; padding: 15px 21px; border: 1px solid rgb(171, 171, 171); font-family: Roboto, Arial, sans-serif; color: rgb(34, 34, 34); box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 16px; z-index: 10000002; display: none; width: 256px; height: 148px; position: absolute; left: 215px; top: 160px;">
+                  <div style="padding: 0px 0px 10px; font-size: 16px;">Map Data</div>
+                  <div style="font-size: 13px;">Map data ©2018 Google</div>
+                  <div style="width: 13px; height: 13px; overflow: hidden; position: absolute; opacity: 0.7; right: 12px; top: 12px; z-index: 10000; cursor: pointer;">
+                    <img alt="" src="js/mapcnt6.png" draggable="false" style="position: absolute; left: -2px; top: -336px; width: 59px; height: 492px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                  </div>
+                </div>
+                <div class="gmnoprint" style="z-index: 1000001; position: absolute; right: 167px; bottom: 0px; width: 121px;">
+                  <div draggable="false" class="gm-style-cc" style="user-select: none; height: 14px; line-height: 14px;">
+                    <div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;">
+                      <div style="width: 1px;"></div>
+                      <div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div>
+                    </div>
+                    <div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;">
+                      <a style="text-decoration: none; cursor: pointer; display: none;">Map Data</a>
+                      <span>Map data ©2018 Google</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="gmnoscreen" style="position: absolute; right: 0px; bottom: 0px;">
+                  <div style="font-family: Roboto, Arial, sans-serif; font-size: 11px; color: rgb(68, 68, 68); direction: ltr; text-align: right; background-color: rgb(245, 245, 245);">Map data ©2018 Google</div>
+                </div>
+                <div class="gmnoprint gm-style-cc" draggable="false" style="z-index: 1000001; user-select: none; height: 14px; line-height: 14px; position: absolute; right: 96px; bottom: 0px;">
+                  <div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;">
+                    <div style="width: 1px;"></div>
+                    <div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div>
+                  </div>
+                  <div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;">
+                    <a href="https://www.google.com/intl/en-US_US/help/terms_maps.html" target="_blank" rel="noopener" style="text-decoration: none; cursor: pointer; color: rgb(68, 68, 68);">Terms of Use</a>
+                  </div>
+                </div>
+                <button draggable="false" title="Toggle fullscreen view" aria-label="Toggle fullscreen view" type="button"
+                  style="background: none rgb(255, 255, 255); border: 0px; margin: 10px 14px; padding: 0px; position: absolute; cursor: pointer; user-select: none; width: 25px; height: 25px; overflow: hidden; top: 0px; right: 0px;">
+                  <img alt="" src="js/sv9.png" draggable="false" class="gm-fullscreen-control" style="position: absolute; left: -52px; top: -86px; width: 164px; height: 175px; user-select: none; border: 0px; padding: 0px; margin: 0px;">
+                </button>
+                <div draggable="false" class="gm-style-cc" style="user-select: none; height: 14px; line-height: 14px; position: absolute; right: 0px; bottom: 0px;">
+                  <div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;">
+                    <div style="width: 1px;"></div>
+                    <div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div>
+                  </div>
+                  <div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;">
+                    <a target="_blank" rel="noopener" title="Report errors in the road map or imagery to Google" href="https://www.google.com/maps/@14.090821,77.536324,11z/data=!10m1!1e1!12b1?source=apiv3&amp;rapsrc=apiv3"
+                      style="font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); text-decoration: none; position: relative;">Report a map error</a>
+                  </div>
+                </div>
+                <div class="gmnoprint gm-bundled-control gm-bundled-control-on-bottom" draggable="false" controlwidth="28"
+                  controlheight="93" style="margin: 10px; user-select: none; position: absolute; bottom: 107px; right: 28px;">
+                  <div class="gmnoprint" controlwidth="28" controlheight="55" style="position: absolute; left: 0px; top: 38px;">
+                    <div draggable="false" style="user-select: none; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px; cursor: pointer; background-color: rgb(255, 255, 255); width: 28px; height: 55px;">
+                      <button draggable="false" title="Zoom in" aria-label="Zoom in" type="button" style="background: none; display: block; border: 0px; margin: 0px; padding: 0px; position: relative; cursor: pointer; user-select: none; width: 28px; height: 27px; top: 0px; left: 0px;">
+                        <div style="overflow: hidden; position: absolute; width: 15px; height: 15px; left: 7px; top: 6px;">
+                          <img alt="" src="js/tmapctrl_hdpi.png" draggable="false" style="position: absolute; left: 0px; top: 0px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none; width: 120px; height: 54px;">
+                        </div>
+                      </button>
+                      <div style="position: relative; overflow: hidden; width: 67%; height: 1px; left: 16%; background-color: rgb(230, 230, 230); top: 0px;"></div>
+                      <button draggable="false" title="Zoom out" aria-label="Zoom out" type="button" style="background: none; display: block; border: 0px; margin: 0px; padding: 0px; position: relative; cursor: pointer; user-select: none; width: 28px; height: 27px; top: 0px; left: 0px;">
+                        <div style="overflow: hidden; position: absolute; width: 15px; height: 15px; left: 7px; top: 6px;">
+                          <img alt="" src="js/tmapctrl_hdpi.png" draggable="false" style="position: absolute; left: 0px; top: -15px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none; width: 120px; height: 54px;">
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="gm-svpc" controlwidth="28" controlheight="28" style="background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px; width: 28px; height: 28px; cursor: url(&quot;https://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;), default; touch-action: none; position: absolute; left: 0px; top: 0px;">
+                    <div style="position: absolute; left: 1px; top: 1px;"></div>
+                    <div style="position: absolute; left: 1px; top: 1px;">
+                      <div aria-label="Street View Pegman Control" style="width: 26px; height: 26px; overflow: hidden; position: absolute; left: 0px; top: 0px;">
+                        <img alt="" src="js/cb_scout5_hdpi.png" draggable="false" style="position: absolute; left: -147px; top: -26px; width: 215px; height: 835px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                      </div>
+                      <div aria-label="Pegman is on top of the Map" style="width: 26px; height: 26px; overflow: hidden; position: absolute; left: 0px; top: 0px; visibility: hidden;">
+                        <img alt="" src="js/cb_scout5_hdpi.png" draggable="false" style="position: absolute; left: -147px; top: -52px; width: 215px; height: 835px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                      </div>
+                      <div aria-label="Street View Pegman Control" style="width: 26px; height: 26px; overflow: hidden; position: absolute; left: 0px; top: 0px; visibility: hidden;">
+                        <img alt="" src="js/cb_scout5_hdpi.png" draggable="false" style="position: absolute; left: -147px; top: -78px; width: 215px; height: 835px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="gmnoprint" controlwidth="28" controlheight="0" style="display: none; position: absolute;">
+                    <div title="Rotate map 90 degrees" style="width: 28px; height: 28px; overflow: hidden; position: absolute; background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px; cursor: pointer; display: none;">
+                      <img alt="" src="js/tmapctrl4_hdpi.png" draggable="false" style="position: absolute; left: -141px; top: 6px; width: 170px; height: 54px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                    </div>
+                    <div class="gm-tilt" style="width: 28px; height: 28px; overflow: hidden; position: absolute; background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px; top: 0px; cursor: pointer;">
+                      <img alt="" src="js/tmapctrl4_hdpi.png" draggable="false" style="position: absolute; left: -141px; top: -13px; width: 170px; height: 54px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;">
+                    </div>
+                  </div>
+                </div>
+                <div class="gmnoprint" style="margin: 10px; z-index: 0; position: absolute; cursor: pointer; left: 0px; top: 0px;">
+                  <div class="gm-style-mtc" style="float: left; position: relative;">
+                    <div role="button" tabindex="0" title="Show street map" aria-label="Show street map" aria-pressed="true"
+                      draggable="false" style="direction: ltr; overflow: hidden; text-align: center; position: relative; color: rgb(0, 0, 0); font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 8px; border-bottom-left-radius: 2px; border-top-left-radius: 2px; background-clip: padding-box; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; min-width: 22px; font-weight: 500;">Map</div>
+                    <div style="background-color: white; z-index: -1; padding: 2px; border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; position: absolute; left: 0px; top: 29px; text-align: left; display: none;">
+                      <div draggable="false" title="Show street map with terrain" style="color: rgb(0, 0, 0); font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 6px 8px 6px 6px; direction: ltr; text-align: left; white-space: nowrap;">
+                        <span role="checkbox" style="box-sizing: border-box; position: relative; line-height: 0; font-size: 0px; margin: 0px 5px 0px 0px; display: inline-block; background-color: rgb(255, 255, 255); border: 1px solid rgb(198, 198, 198); border-radius: 1px; width: 13px; height: 13px; vertical-align: middle;">
+                          <div style="position: absolute; left: 1px; top: -2px; width: 13px; height: 11px; overflow: hidden; display: none;">
+                            <img alt="" src="js/imgs8.png" draggable="false" style="position: absolute; left: -52px; top: -44px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none; width: 68px; height: 67px;">
+                          </div>
+                        </span>
+                        <label style="vertical-align: middle; cursor: pointer;">Terrain</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="gm-style-mtc" style="float: left; position: relative;">
+                    <div role="button" tabindex="0" title="Show satellite imagery" aria-label="Show satellite imagery" aria-pressed="false"
+                      draggable="false" style="direction: ltr; overflow: hidden; text-align: center; position: relative; color: rgb(86, 86, 86); font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 8px; border-bottom-right-radius: 2px; border-top-right-radius: 2px; background-clip: padding-box; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; min-width: 39px; border-left: 0px;">Satellite</div>
+                    <div style="background-color: white; z-index: -1; padding: 2px; border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; position: absolute; right: 0px; top: 29px; text-align: left; display: none;">
+                      <div draggable="false" title="Show imagery with street names" style="color: rgb(0, 0, 0); font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 6px 8px 6px 6px; direction: ltr; text-align: left; white-space: nowrap;">
+                        <span role="checkbox" style="box-sizing: border-box; position: relative; line-height: 0; font-size: 0px; margin: 0px 5px 0px 0px; display: inline-block; background-color: rgb(255, 255, 255); border: 1px solid rgb(198, 198, 198); border-radius: 1px; width: 13px; height: 13px; vertical-align: middle;">
+                          <div style="position: absolute; left: 1px; top: -2px; width: 13px; height: 11px; overflow: hidden;">
+                            <img alt="" src="js/imgs8.png" draggable="false" style="position: absolute; left: -52px; top: -44px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none; width: 68px; height: 67px;">
+                          </div>
+                        </span>
+                        <label style="vertical-align: middle; cursor: pointer;">Labels</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <div class="contact-info">
+            <h2 class="featurette-heading text-justify">Contact us at:</h2>
+            <p class="lead">
+              <b>Phone:</b> +91 9986829742
+              <br>
+              <b>Email:</b> farmours@gmail.com
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FOOTER -->
+    <!-- <footer class="container">
+      <p class="float-right">
+        <a href="#">Back to top</a>
+      </p>
+      <p>&copy; 2017-2018 Company, Inc. &middot;
+        <a href="#">Privacy</a> &middot;
+        <a href="#">Terms</a>
+      </p>
+    </footer> -->
+  </main>
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="js/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script>
+    window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')
+  </script>
+  <script src="vendors/bootstrap-4.1.1/assets/js/vendor/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <!-- <script src="vendors/bootstrap-4.1.1/dist/js/bootstrap.min.js"></script> -->
+  <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+  <script src="vendors/bootstrap-4.1.1/assets/js/vendor/holder.min.js"></script>
+
+  <script>
+    function myMap() {
+      var mapOptions = {
+        center: new google.maps.LatLng(14.0908210, 77.5363240),
+        zoom: 11 //,
+        // mapTypeId: google.maps.MapTypeId.HYBRID
+      }
+      var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+      var icon = {
+        url: "images/map-marker.png",
+        scaledSize: new google.maps.Size(50, 50), // scaled size
+        origin: new google.maps.Point(0, 0), // origin
+        anchor: new google.maps.Point(0, 0) // anchor
+      };
+      var marker = new google.maps.Marker({
+        position: new google.maps.LatLng(14.0908210, 77.5363240),
+        map: map,
+        icon: icon
+      });
+    }
+  </script>
+  <script src="js/js"></script>
+
+
+</body>
+
+</html>
