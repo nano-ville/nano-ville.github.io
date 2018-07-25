@@ -1,10 +1,10 @@
-.banner-img{
+.banner-img {
     max-width: 100%;
     height: 200px;
     margin: 0px;
 }
 
-.banner-container{
+.banner-container {
     position: relative;
     text-align: center;
     color: white;
@@ -12,28 +12,52 @@
 
 .centered {
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.n-title{
-    font-size: 120px;
-    width: 100%;
-    text-align: center;
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+
+@media screen and (min-width: 601px) {
+    .n-title {
+        font-size: 120px;
+    }
 }
 
-.bullet-points{
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+
+@media screen and (max-width: 600px) {
+    .n-title {
+        font-size: 50px;
+    }
+}
+
+.n-title {
+    width: 100%;
+    text-align: center;
+    opacity: 0.93;
+}
+
+.bullet-points {
     font-size: 18px;
 }
 
-.external-link-container{
+.external-link-container {
     min-height: 100px;
     max-height: fit-content;
     border-width: 1px;
     border-style: solid;
     border-color: black;
     border-image: initial;
+}
+
+.external-link-row {
+    padding: 30px;
+}
+
+.btn a {
+    color: white;
 }
 
 .google-map {
@@ -53,10 +77,6 @@
     border-image: initial;
 }
 
-.external-link-row {
-    padding: 30px;
-}
-
 .contact-us {
     margin-top: 2rem !important;
 }
@@ -69,4 +89,35 @@
     border-style: solid;
     border-color: black;
     border-image: initial;
+}
+
+.contact-info h2,
+p {
+    margin: 10px;
+}
+
+/* .phone:before {
+    content: "\f3cd";
+    margin: 2px;
+    font-size: 20px;
+} */
+
+.lead {
+    float: left;
+}
+
+.contact-image {
+    margin: 50px;
+}
+
+.fa-mobile-alt {
+    padding-left: 2px;
+}
+
+.contact-header {
+    padding-bottom: 25px;
+}
+
+button.btn.btn-dark {
+    width: 100px;
 }
